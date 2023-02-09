@@ -1,0 +1,23 @@
+how to approach on building an api
+->the approach for building an api is same for all (for more complex program/application or less complex)
+
+->whenever we want to interact with database, the two things we really take care of that
+
+1)do we need ID or not
+->when we create new record in a database it gives you a unique ID
+->to perform some operation we need ID
+   ->the following are operation where we need ID
+   i)in case to get one record/unique record
+   ii)in case to edit something in the database
+   iii)in case to delete something in the database
+
+->to perform some operation we don't need ID
+   ->the following are operation where we don't need ID
+   i) when we need all record from database
+   ii) when we want to add new record/data on database
+   iii)when we want to post something in databse
+
+#why we have to do such things
+=>because when we don't need any record we can work with basic file but if we need to pass on this id then there is a special struct. in a Next.js
+
+->also in file name we use [id] (square bracket with id), this square are imp and NEXT.js struct works like.
